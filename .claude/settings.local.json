@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:duckdb.org)",
+      "WebFetch(domain:ofajardo.github.io)",
+      "WebFetch(domain:github.com)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git worktree:*)",
+      "WebFetch(domain:typer.tiangolo.com)",
+      "WebFetch(domain:docs.astral.sh)",
+      "WebFetch(domain:pypi.org)",
+      "Bash(find:*)",
+      "WebFetch(domain:readstat.readthedocs.io)",
+      "Bash(python3:*)",
+      "WebFetch(domain:docs.pola.rs)",
+      "WebFetch(domain:rich.readthedocs.io)"
+    ]
+  }
+}
