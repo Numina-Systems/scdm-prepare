@@ -1,5 +1,13 @@
 # scdm-prepare Usage Guide
 
+This is a python tool for combining [CMS 2008-2010 Data Entrepreneurs’ Synthetic Public Use Files](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/index.html) (SynPUFs) subsamples in the Sentinel Common Data Model (SCDM) format. Users may download all 20 subsamples via the following:
+
+for num in {1..20}; do
+    curl -o "scdm_v8_subsamples_$num.zip" "https://www.sentinelinitiative.org/sites/default/files/surveillance-tools/software-toolkit/scdm_v8_subsamples_$num.zip"
+    curl -o "scdm_v8_diagnosis_$num.zip" "https://www.sentinelinitiative.org/sites/default/files/surveillance-tools/software-toolkit/scdm_v8_diagnosis_$num.zip"
+    curl -o "scdm_v8_procedure_$num.zip" "https://www.sentinelinitiative.org/sites/default/files/surveillance-tools/software-toolkit/scdm_v8_procedure_$num.zip"
+done
+
 ## Installation
 
 ```bash
